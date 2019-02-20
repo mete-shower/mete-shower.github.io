@@ -19,7 +19,7 @@
     <meta name="keywords" content>
 
 
-    <meta name="description" content="历史只会记得你的作品和荣誉，而不会留下一事无成者的闲言碎语。">
+    <meta name="description" content="1.设置hexo中主题 在github下载主题，推荐主题NexT,  Yelee。安装到themes文件里面，在目录文件夹下的_config.yml文件的theme项后添加下载的主题名称，重启h...">
 
 
 
@@ -31,7 +31,7 @@
     <!--Title-->
 
 
-<title>Ginkgo = | Gingo&#39;s blog</title>
+<title>设置Hexo主页问题 | Gingo&#39;s blog</title>
 
 
     <link rel="alternate" href="/atom.xml" title="Gingo&#39;s blog" type="application/atom+xml">
@@ -136,9 +136,9 @@
                     <p id="process"></p>
 <article class="post">
     <div class="post-head">
-        <h1 id="Ginkgo =">
+        <h1 id="设置Hexo主页问题">
             
-	            Ginkgo =
+	            设置Hexo主页问题
             
         </h1>
         <div class="post-meta">
@@ -162,7 +162,7 @@
         
         <span class="fa-wrap">
             <i class="fa fa-clock-o"></i>
-            <span class="date-meta">2019/02/19</span>
+            <span class="date-meta">2019/02/20</span>
         </span>
         
     
@@ -172,7 +172,14 @@
     </div>
     
     <div class="post-body post-content">
-        
+        <h4 id="1-设置hexo中主题"><a href="#1-设置hexo中主题" class="headerlink" title="1.设置hexo中主题"></a>1.设置hexo中主题</h4><p> 在github下载主题，推荐主题<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">NexT</a>,<br>  <a href="https://link.jianshu.com/?t=http://moxfive.coding.me/yelee/" target="_blank" rel="noopener">Yelee</a><br>。安装到themes文件里面，在目录文件夹下的_config.yml文件的theme项后添加下载的主题名称，重启hexo就可以了。修改中英文是在_config.yml文件中的langage:zh-Hans。</p>
+<ul>
+<li>绑定github：(在文件的末尾)<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">- type: git</span><br><span class="line">  repo: git@github.com:mete-shower/mete-shower.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="2-修改hexo主页中的内容"><a href="#2-修改hexo主页中的内容" class="headerlink" title="2. 修改hexo主页中的内容"></a>2. 修改hexo主页中的内容</h4><p> 绑定了主页过后会发现,主题中的有一些配置改变不了，无论怎么修改文件夹下的html代码都改变不了，此问题纠结了半天。后面发现要在theme文件夹下的_config.yml文件中修改。</p>
+<h5 id="3-查看了源码，发现所有的文章模板都是用ejs引擎语言编写的。"><a href="#3-查看了源码，发现所有的文章模板都是用ejs引擎语言编写的。" class="headerlink" title="3.查看了源码，发现所有的文章模板都是用ejs引擎语言编写的。"></a>3.查看了源码，发现所有的文章模板都是用ejs引擎语言编写的。</h5><p>date: 2019-02-20 21:55:43</p>
+<h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>
     </div>
     
     <div class="post-footer">
@@ -235,9 +242,9 @@
     <div class="widget">
         <h3 class="title">Table of Contents</h3>
         
-            <p>暂无目录</p>
+            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-设置hexo中主题"><span class="toc-text">1.设置hexo中主题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-修改hexo主页中的内容"><span class="toc-text">2. 修改hexo主页中的内容</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-查看了源码，发现所有的文章模板都是用ejs引擎语言编写的。"><span class="toc-text">3.查看了源码，发现所有的文章模板都是用ejs引擎语言编写的。</span></a></li></ol></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#tags"><span class="toc-text">tags:</span></a>
         
-    </div>
+    </li></div>
 </aside>
 
                 
